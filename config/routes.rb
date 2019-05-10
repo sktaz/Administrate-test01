@@ -5,5 +5,6 @@ Rails.application.routes.draw do
     resources :staffs
     resources :books
   end
-  root 'books#index'
+  root 'admin/books#index'
+
 end
