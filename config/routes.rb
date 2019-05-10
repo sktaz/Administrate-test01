@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   namespace :admin do
     resources :staffs
+    resources :books
   end
-  root 'staff#index'
+  root 'books#index'
 end
